@@ -1,6 +1,6 @@
 name: CRB
 
-on: workflow_dispatch
+on: workflow_dispatc
 
 jobs:
   build:
