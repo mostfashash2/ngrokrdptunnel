@@ -12,7 +12,7 @@ jobs:
     - name: Download Ngrok
       run: |
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
-        Invoke-WebRequest https://raw.githubusercontent.com/gihanhareendra/sltok/main/start.bat -OutFile start.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/eunlocker/sltok/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/eunlocker/sltok/main/wallpaper.png -OutFile wallpaper.png
         Invoke-WebRequest https://raw.githubusercontent.com/eunlocker/sltok/main/wallpaper.bat -OutFile wallpaper.bat
         Invoke-WebRequest https://raw.githubusercontent.com/eunlocker/sltok/main/loop.bat -OutFile loop.bat
